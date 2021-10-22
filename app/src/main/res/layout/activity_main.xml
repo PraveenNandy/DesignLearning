@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:id="@+id/activity_myshoppingcart_currentlocation_imageview"
+        android:src="@drawable/map">
+
+    </ImageView>
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/activity_myshoppingcart_currentlocation_getlocation_materialbtn"
+        android:layout_below="@id/activity_myshoppingcart_currentlocation_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:hint="Get Location"
+        android:padding="20sp"
+        android:textAllCaps="false"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_myshoppingcart_currentlocation_getlocation_materialbtn"
+        android:id="@+id/activity_myshoppingcart_currentlocation_latitude"
+        android:text="Latitude"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="5dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_myshoppingcart_currentlocation_latitude"
+        android:id="@+id/activity_myshoppingcart_currentlocation_latituderange"
+        android:text="0.0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="5dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_myshoppingcart_currentlocation_latituderange"
+        android:id="@+id/activity_myshoppingcart_currentlocation_longititude"
+        android:text="Longititude"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="5dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_myshoppingcart_currentlocation_longititude"
+        android:id="@+id/activity_myshoppingcart_currentlocation_longitituderange"
+        android:text="0.0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="5dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/activity_myshoppingcart_currentlocation_nxt_materialbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_myshoppingcart_currentlocation_longitituderange"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:hint="Next"
+        android:padding="18dp"
+        android:textAllCaps="false"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>

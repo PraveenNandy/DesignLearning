@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DesignLearning</string>
+    <string name="welcometofaazi">Welcome To Faazi</string>
+    <string name="tab_in_progress">In Progress</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tab_cancelled">Cancelled</string>
+    <string name="pendingamount">Pending Amount</string>
+    <string name="inprogress">In Progress</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="topfiveusers">Top 5 Users.....</string>
+    <string name="loginscreen">Login</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="getotp">Get OTP</string>
+    <string name="login">Log In</string>
+    <string name="connectwithwatersupplier">Connect with \n Water Supplier</string>
+    <string name="noneedtocalljustorderfromtheapp">No Need To Call /n Just Order /n From The App</string>
+    <string name="vendor">Vendor</string>
+    <string name="seller">Seller</string>
+    <string name="username">User Name</string>
+    <string name="useraddress">User Address</string>
+    <string name="approval">Approval</string>
+
+
+    <string name="first_title_slide">User Registration</string>
+    <string name="second_title_slide">Get OTP</string>
+    <string name="third_title_slide">Selection</string>
+    <string name="fourth_title_slide">Connect With Vendor</string>
+    <string name="fiveth_title_slide">See Your Favourite Vendors</string>
+    <string name="sixth_title_slide">Make The Order Now</string>
+    <string name="seventh_title_slide">Order Confiramation</string>
+    <string name="eighth_title_slide">Update Your Product</string>
+    <string name="nineth_title_slide">See Your Order</string>
+    <string name="tenth_title_slide">Tracking Your User Pending Balance</string>
+    <string name="eleventh_title_slide">Connect With Your Buyer</string>
+
+
+</resources>

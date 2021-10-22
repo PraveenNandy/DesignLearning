@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductListAdapter">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_myshoppingcart_addproduct_cardview"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_myshoppingcart_addproduct_linearlayout"
+            android:orientation="vertical"
+            android:layout_below="@+id/activity_myshoppingcart_addproduct_cardview">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/activity_myshoppingcart_addproduct_productname_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="5dp"
+                android:hint="Product Name"
+                android:textColorHint="@color/black"
+                app:boxBackgroundColor="@color/white"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/teal_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/activity_myshoppingcart_addproduct_productname_textinputedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/activity_myshoppingcart_addproduct_brandname_textinputlayout"
+                android:layout_below="@id/activity_myshoppingcart_addproduct_productname_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="5dp"
+                android:hint="Brand Name"
+                android:textColorHint="@color/black"
+                app:boxBackgroundColor="@color/white"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/teal_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/activity_myshoppingcart_addproduct_brandname_textinputedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_myshoppingcart_addproduct_productscount_linearlayout"
+                android:layout_below="@id/activity_myshoppingcart_addproduct_linearlayout"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/activity_myshoppingcart_addproduct_quantity_textinputlayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:hint="Quanity"
+                    android:textColorHint="@color/black"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:startIconTint="@color/teal_700"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/fragment_watercane_product_quantity_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:ems="3"
+                    android:inputType="number"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="15sp">
+
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/fragment_watercane_product_imageequalstobtn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:layout_marginRight="2dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/cross_icon">
+
+
+                </ImageView>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_myshoppingcart_addproduct_spinner"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/activity_myshoppingcart_addproduct_totalprice_textinputlayout"
+                android:layout_below="@id/activity_myshoppingcart_addproduct_productname_textinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="5dp"
+                android:hint="Total Price"
+                android:textColorHint="@color/black"
+                app:boxBackgroundColor="@color/white"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/teal_700">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/activity_myshoppingcart_addproduct_totalprice_textinputedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_myshoppingcart_addproduct_update_linearlayout"
+                android:layout_below="@id/activity_myshoppingcart_addproduct_totalprice_textinputlayout"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/activity_myshoppingcart_addproduct_addvariant_materialbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    app:cornerRadius="10dp"
+                    android:backgroundTint="@color/yellow"
+                    android:hint="Add Variant"
+                    android:padding="18dp"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.button.MaterialButton>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/activity_myshoppingcart_addproduct_save_materialbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="8dp"
+                    app:cornerRadius="10dp"
+                    android:backgroundTint="@color/yellow"
+                    android:hint="save"
+                    android:padding="18dp"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.button.MaterialButton>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

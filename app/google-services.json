@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988118108793",
+    "project_id": "design-learning",
+    "storage_bucket": "design-learning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988118108793:android:6cdcbe2b056a32c5c8a2a8",
+        "android_client_info": {
+          "package_name": "com.faazi.designlearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988118108793-st2b0vi1lgkc1p7knamc16ltvvr89nmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpuBgxC9EbsWk0ElxNyW_z0Qf3XG5Tego"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988118108793-st2b0vi1lgkc1p7knamc16ltvvr89nmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
